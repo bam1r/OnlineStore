@@ -36,26 +36,6 @@
   - Клиент создаёт аккаунт или пополняет баланс через API Gateway
   - Payments Service сохраняет и обновляет данные аккаунта
 
-## Структура проекта
-
-OnlineStore/
-├── APIGateway/
-│   ├── Controllers/
-│   ├── Program.cs
-│   └── ...
-├── OrderService/
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Services/
-│   ├── Program.cs
-│   └── ...
-├── PaymentsService/
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Services/
-│   ├── Program.cs
-│   └── ...
-
 ---
 
 **Для тестирования используйте Swagger или Postman.** 
